@@ -1,0 +1,109 @@
+* {
+    margin: 1px;
+    padding: px;
+    box-sizing: 1px;
+}
+
+.title-1 {
+    
+    text-align: center;
+}
+p {
+    /* background: ; */
+    font-family: cursive;
+}
+body {
+    background-image: linear-gradient(orange, rgb(94, 92, 92), rgb(78, 5, 5));
+}
+div {
+   
+}
+#foto-mia {
+    height: 250px;
+    width: 150px;
+    top: 100px;
+    left: 120px;
+    /* display: block;
+    margin: auto; */
+    transform: translate(870px, 10px);
+    border-radius: 50%;
+    box-shadow:rgb(247, 245, 245) 8px 1px 50px;
+    /* filter: grayscale(100%); */
+    
+   
+    
+}
+#menu {
+     /* top: 1000px; */
+    /* left: 100%;  */
+    transform: translate(1020px, -210px);
+    /* height:0;
+    width: 0; */
+    font-family:cursive
+}
+progress {
+    display: block;
+    margin: auto;
+    transform: translate(0px, -20px);
+}
+#Progreso {
+    padding-right: 1px;
+    font-size:18px;
+    text-align:center;
+    
+    
+}
+.completar {
+    transform: translate(20px, -560px);
+    border: lightcyan ;
+    margin-right:1000px ;
+    margin-top: 10px;
+    height: 150px;
+    background-image:radial-gradient(rgb(188, 150, 248), rgb(94, 92, 94) );
+    box-shadow: honeydew 10px 29px 75px;
+    
+}
+#email {
+    position:relative;
+    left: 35px;
+    /* top: ;
+    width: ;
+    height: ; */
+}
+#nombre {
+    position:relative;
+    left: 21px;
+    /* top: ;
+    width: ;
+    height: ; */
+}
+#apellido {
+    position:relative;
+    left: 17px;
+    /* top: ;
+    width: ;
+    height: ; */
+}
+#submit {
+    font-weight:bolder;
+    cursor:pointer;
+    padding: 5px;
+    border-radius: 8px 8px 8px 8px;
+    background: rgb(225, 203, 238);
+    position: relative;
+    left: 140px;
+    border: 1px solid #ccc;
+    margin: 0px 10px 10px 0px ;
+    border-bottom: none;
+}
+#github {
+    border-radius: 50%;
+    width: 55px;
+    margin: 5px;
+    /* box-shadow: 0px 0px 6px 3px rgb(223, 175, 175); */
+    opacity: 0.8;
+    
+}
+
+
+

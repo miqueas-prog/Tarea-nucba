@@ -1,49 +1,75 @@
 <!DOCTYPE html>
-<Html>
-    <head>
-        <title>Mi Perfil</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+    <title>Mi Perfil</title>
+
+</head>
+
 <body>
-        <div>
-        <h1>Miqueas Heredia</h1>
+    <div>
+        <h1 class="title-1">Miqueas Leonel Heredia</h1>
         <hr>
-       <img src="/Assets/foto mia 6achique.jpg" alt="imagen alumno"> 
+    <div class="img">
+       <img id="foto-mia" src="/Assets/foto mia 6achique.jpg" alt="imagen alumno" width="200px" > 
+    </div>
        
-       <hr>
-       <ul>
+         <div id="menu">        
+         <ul>
            <li>MIQUEAS HEREDIA</li>
-           <li>22</li>
+           <li>22 años</li>
            <li>MIKEASHEREDIA33@GMAIL.COM</li>
-           
-       </ul>
-       <hr>
-       <P>Buenas, estudio ing. en sistema en la utn y hoy estoy subido en la
+         
+         </ul>
+         </div> 
+         <hr>
+           <P>Buenas, estudio ing. en sistema en la utn y hoy estoy subido en la
            nucbaneta para seguir aprendiendo mas cosas sobre el mundo de la programacion, como dijo alguien el conocimiento no ocupa espacio.   </P>
-        <hr>        
-           <br>
-        <a href="https://github.com/miqueas-prog" target="_blank">Github
-        </a>
+        <hr>      
+        <br>
+    <div>
+        <a href="https://github.com/miqueas-prog" target="_blank">
+        
+            <img id="github" src="../Assets/github2.jpg" alt="imagen de github"></a>
+         <div>
+             <a href="https://www.instagram.com/miqueas_heredia/?hl=es-la" target="_blank" >
+                 <img src="../Assets/insta.png" alt="Logo instagram">
+             </a>
+
+         </div>  
+    <div>
+
+        <br>
+
 <br>
 <br>
-<br>
-     <form action="">  
+<div class="completar" >
+    <form action="">  
       <label for="nombre">Nombre:</label> 
-       <input type="text" placeholder="Nombre">
+       <input id="nombre" type="text" placeholder="Nombre">
        <br>
        <label for="Apellido">Apellido:</label>
-       <input type="text" placeholder="Apellido">
+       <input id="apellido" type="text" placeholder="Apellido">
        <br>
        <label for="">Email:</label>
-       <input type="email" placeholder="email" required/>
+       <input id="email" type="email" placeholder="email" required/>
        <br>
-       <input type="submit">
-     </form>
-<hr>
+       <label for="">Contraseña:</label>
+       <input type="password" placeholder="contraseña">
+       <br>
+       <input id="submit" type="submit">
+    </form>
+</div>     
 
-<br>
-<progress></progress>
-<br>
+     <br>
+     
+     <label id="Progreso" for="Mi-progreso"><p>Mi Progreso:</p></label>
+     <progress id="file" max="100" value="10">80%</progress>
+     <br>
 
-        </div>
- </body>
+    </div>
+</body>
 </Html>
